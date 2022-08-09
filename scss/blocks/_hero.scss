@@ -1,0 +1,278 @@
+.hero {
+    // transform: translateY(150px);
+
+    // @media only screen and (max-width: 768px) {
+    //     transform: translateY(105px);
+    // }
+
+    // @media only screen and (max-width: 400px) {
+    //     transform: translateY(40px);
+    // }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__inner-container {
+        display: flex;
+        max-width: 1140px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left-sayt {
+        max-width: 653px;
+        width: 100%;
+        @media only screen and (max-width: 768px) {
+            padding: 0 30px;
+
+            @media only screen and (max-width: 400px) {
+                padding: 0 15px;
+            }
+        }
+    }
+
+    &__hidden {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 43px;
+        padding-top: 56.75px;
+        color: #333333;
+        max-width: 555px;
+        margin: 0;
+
+        @media only screen and (max-width: 627px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 34px;
+            color: #333333;
+        }
+    }
+
+    &__d-flex {
+        display: flex;
+
+        @media only screen and (max-width: 627px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    &__spam {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 43px;
+        color: #FBD846;
+
+        @media only screen and (max-width: 627px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 34px;
+            color: #FBD846;
+        }
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #333333;
+        max-width: 554px;
+        margin-top: 21.74px;
+
+        @media only screen and (max-width:627px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #333333;
+            margin: 0;
+            padding-top: 24px;
+        }
+    }
+}
+
+.hero {
+
+    &__right-sayt {
+        background: url("/images/KITCHENS-PAGE-1920w\ 1.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 847px;
+        height: 714px;
+        transform: translateY(21%);
+
+        @media only screen and (max-width: 1750px) {
+            display: none;
+        }
+    }
+
+}
+
+.hero {
+
+    &__list {
+        display: flex;
+        align-items: stretch;
+        margin-top: 67.67px;
+
+        @media only screen and (max-width: 627px) {
+            margin-top: 61px;
+        }
+    }
+
+    &__listt {
+        display: flex;
+        align-items: stretch;
+        margin-top: 40.67px;
+
+        @media only screen and (max-width: 627px) {
+            margin-top: 37px;
+        }
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__inner-img {
+        max-width: 25.25px;
+        width: 100%;
+    }
+
+    &__inner-text {
+        max-width: 203px;
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 9px;
+        margin-right: 30px;
+
+        @media only screen and (max-width: 768px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #333333;
+
+            @media only screen and (max-width: 627px) {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                color: #333333;
+                max-width: 134px;
+                margin: 0 auto;
+                padding-left: 9px;
+                margin-right: 0 !important;
+            }
+        }
+
+    }
+
+    &__btn {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #333333;
+        background: linear-gradient(269.89deg, #FBD846 0.07%, #FFE888 99.89%);
+        box-shadow: 10px 10px 20px rgba(255, 216, 111, 0.4);
+        border-radius: 30px;
+        text-decoration: none;
+        padding: 19px 49px 26px 58px;
+        margin-top: 94.63px;
+        margin-right: 30px;
+        max-width: 360px;
+        width: 100%;
+        margin-bottom: 64.54px;
+
+        &:hover {
+            color: #333333;
+        }
+
+        @media only screen and (max-width: 768px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #333333;
+            padding: 29px 52.67px 27.41px 52px;
+            @media only screen and (max-width: 627px) {
+                margin-bottom: 20px;
+                margin: 53px 15px 20px;
+                display: flex;
+                justify-content: center;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                color: #333333;
+            }
+        }
+
+    }
+
+    &__inner-text2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #333333;
+        max-width: 263px;
+
+        @media only screen and (max-width: 627px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            max-width: 344px;
+            color: #333333;
+        }
+    }
+
+    &__podar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 16.62px;
+        margin-top: 40px;
+
+        @media only screen and (max-width: 627px) {
+            margin-top: 0;
+        }
+    }
+}

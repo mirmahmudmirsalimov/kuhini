@@ -1,0 +1,197 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(51, 51, 51, 0.05);
+    border-radius: 0px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: all 1s;
+
+    &:hover {
+        transform: scale(0.9);
+        transition: all 1s;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    }
+
+    &:nth-last-child(4) {
+        display: flex;
+
+        @media only screen and (max-width: 650px) {
+            display: none;
+        }
+    }
+
+    &:nth-last-child(5) {
+        display: flex;
+
+        @media only screen and (max-width: 769px) {
+            display: none;
+        }
+    }
+
+    &:nth-last-child(6) {
+        display: flex;
+
+        @media only screen and (max-width: 769px) {
+            display: none;
+        }
+    }
+
+
+
+
+
+
+    &__btn {
+        background: #F4F4F4;
+        border-radius: 50%;
+        border: 2px solid #F4F4F4;
+        font-size: 19.61px;
+        font-weight: 700;
+        color: #99CB38;
+
+        &:hover {
+            color: #F4F4F4;
+            background: #99CB38;
+        }
+    }
+
+
+
+    &__h6 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        text-decoration-line: line-through;
+        margin: 0;
+        color: #B2B2B2;
+    }
+
+
+
+    &__h4 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0;
+        color: #99CB38;
+    }
+}
+
+.cardd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__hiden {
+        margin: 52px 0 56px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 107%;
+        text-align: center;
+        text-transform: uppercase;
+        color: #333333;
+
+        @media only screen and (max-width: 768px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 136%;
+            text-align: center;
+            text-transform: uppercase;
+
+            color: #333333;
+        }
+    }
+
+    &__bg {
+        background: #F8CC55;
+        max-width: 1920px;
+        width: 100%;
+    }
+}
+
+.container {}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.card-body {
+    padding: 24px 30px 34px;
+
+}
+
+.card-img-top {
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title {}
+
+.card-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding-bottom: 22px;
+    color: #333333;
+    max-width: 306px;
+}
+
+.card__obshi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    width: 100%;
+}
+
+.card__bb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-link {
+    background: linear-gradient(269.89deg, #99CB38 0.07%, #C0F35B 99.89%);
+    box-shadow: 10px 10px 20px rgba(255, 216, 111, 0.4);
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 17px 65px 24px 64px;
+    color: #333333;
+    margin-top: 27px;
+    margin-bottom: 51px;
+
+    @media only screen and (max-width: 769px) {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+
+        color: #333333;
+        background: linear-gradient(269.89deg, #99CB38 0.07%, #C0F35B 99.89%);
+        box-shadow: 10px 10px 20px rgba(255, 216, 111, 0.4);
+        border-radius: 30px;
+        padding: 17px 64px;
+    }
+}

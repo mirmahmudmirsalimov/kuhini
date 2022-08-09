@@ -1,0 +1,221 @@
+.header {
+    display: flex;
+    justify-content: center;
+
+
+    &__w {
+        max-width: 1140px;
+        width: 100%;
+        padding: 11px 0 14.81px;
+    }
+
+    &__locatsia-icon {
+        margin-left: 4px;
+        width: 11.74px;
+        height: 15.09px;
+        margin-right: 4.37px;
+    }
+
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+
+        @media only screen and (max-width: 768px) {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #000000;
+            max-width: 706px;
+        }
+    }
+
+    &__telefon-icon {
+        width: 23.12px;
+        height: 23.19px;
+        margin-right: 9.88px;
+    }
+
+    &__number {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        margin-right: 14px;
+    }
+
+    &__link {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+
+        color: #333333;
+
+        &:hover {
+            color: #99CB38;
+        }
+    }
+
+    &__bot-list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        text-align: center;
+
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &__tel-img {
+        width: 23.12px;
+        height: 23.19px;
+    }
+
+    &__tel-number {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+
+        color: #222222;
+    }
+
+    &__bbb {
+        display: none;
+
+        @media only screen and (max-width: 769px) {
+            display: flex;
+            align-items: center;
+            padding-right: 0;
+        }
+    }
+
+    &__telefon {
+        width: 13px;
+        height: 13px;
+        margin-right: 5px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
+.header-bottom {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+// .header__obshi {
+//     position: fixed;
+//     left: 0;
+//     width: 100%;
+//     z-index: 1000;
+// }
+
+.header__bot {
+    max-width: 1140px;
+    width: 100%;
+    padding: 18px 0 17.53px;
+
+    @media only screen and (max-width: 400px) {
+        padding: 11px 0;
+    }
+}
+
+.header__bot-btn {
+    display: none;
+
+    @media only screen and (max-width: 768px) {
+        display: flex;
+    }
+}
+
+#offcanvasNavbar {
+    max-width: 768px;
+    width: 100%;
+
+    @media only screen and (max-width: 400px) {
+        max-width: 400px;
+        width: 100%;
+    }
+
+}
+
+.header__bot-btn {
+    border: none;
+}
+
+.header__kuhnia-icon {
+    width: 165px;
+    height: 68px;
+
+    @media only screen and (max-width: 400px) {
+        width: 116px;
+        height: 48px;
+    }
+}
+
+.pol {
+    padding: 0;
+
+    @media only screen and (max-width: 400px) {
+        padding: 0 15px;
+    }
+}
+
+.Request-call {
+    border: 1px solid #FBD846;
+    filter: drop-shadow(2px 2px 4px rgba(255, 216, 111, 0.4));
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    background: transparent;
+    color: #333333;
+    padding: 15px 26px 15px;
+    text-decoration: none;
+
+    &:hover {
+        background: linear-gradient(269.89deg, #FBD846 0.07%, #FFE888 99.89%);
+        box-shadow: 10px 10px 20px rgba(255, 216, 111, 0.4);
+        border-radius: 30px;
+        color: #333333;
+        text-decoration: none;
+    }
+
+    @media only screen and (max-width: 900px) {
+        display: none;
+    }
+}
+
+.Request-calli {
+    background: linear-gradient(269.89deg, #FBD846 0.07%, #FFE888 99.89%);
+    box-shadow: 10px 10px 20px rgba(255, 216, 111, 0.4);
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+    padding: 15px 26px 15px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,500&family=Montserrat:wght@300;400;600;900&family=Space+Mono:wght@700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>coffeeroasters</title>
+</head>
+
+<body>
+
+    <!-- ___________________BEM bilan ishlash_____________________________ -->
+
+
+    <!-- ___________________header kismi__________________________________ -->
+
+    <div class="header__obshi">
+        <div class="header bg-warning">
+            <header class="header__container header__w">
+                <div class="header__top bg-warning d-flex justify-content-between w-100 align-items-center">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="header__locatsia-icon" src="./images/locatsia-icon.svg" alt="">
+                        <p class="header__text m-0">г. Нижневартовск, ул. Индустриальная, д.7 стр. 1 ТЦ “ВДНХ”, 2
+                            этаж,бутик
+                            № 20а</p>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="header__telefon-icon" src="./images/Telefon-icon.svg" alt="">
+                        <p class="header__number m-0">+7 (3466) 68-15-98</p>
+                    </div>
+                </div>
+            </header>
+
+        </div>
+        <div class="d-flex justify-content-center header-bottom">
+            <nav class="navbar bg-white  header__bot">
+                <div class="container pol">
+                    <a class="" href="#">
+                        <img class="header__kuhnia-icon" src="./images/kuhni.svg" alt="">
+                    </a>
+                    <div class="header__bbb">
+                        <img class="header__telefon" src="./images/tel.svg" alt="">
+                        <p class="header__number m-0">+7 (3466) 68-15-98</p>
+                    </div>
+                    <ul class="header__bot-list">
+                        <li style="margin-right: 13.81px;">
+                            <a class="text-decoration-none  header__link" href="">Каталог товаров</a>
+                        </li>
+                        <li style="margin-right: 22.39px;">
+                            <a class="text-decoration-none  header__link" href="">Кухонные модули</a>
+                        </li>
+                        <li style="margin-right: 22.39px;">
+                            <a class="text-decoration-none  header__link" href="">Декоры</a>
+                        </li>
+                        <li style="margin-right: 22.39px;">
+                            <a class="text-decoration-none  header__link" href="">Фотопечать</a>
+                        </li>
+                        <li style="margin-right: 22.39px;">
+                            <a class="text-decoration-none  header__link" href="">Готовые решения</a>
+                        </li>
+                        <li style="margin-right: 24.72px;">
+                            <a class="text-decoration-none header__link" href="">Контакты</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <a class="Request-call" type="submit" href="https://zv9.ru/tel/7-3466-68-15-98/">Заказать
+                            звонок</a>
+                    </div>
+                    <button class=" header__bot-btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <img src="./images/burger.jpg" alt="" width="30px" height="24px">
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <img src="./images/kuhni.svg" alt="" width="116px" height="48px">
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="d-flex flex-column list-unstyled text-center">
+                                <li style="margin-bottom: 28px;">
+                                    <a class="text-decoration-none  header__link" href="">Каталог товаров</a>
+                                </li>
+                                <li style="margin-bottom: 28px;">
+                                    <a class="text-decoration-none  header__link" href="">Кухонные модули</a>
+                                </li>
+                                <li style="margin-bottom: 28px;">
+                                    <a class="text-decoration-none  header__link" href="">Декоры</a>
+                                </li>
+                                <li style="margin-bottom: 28px;">
+                                    <a class="text-decoration-none  header__link" href="">Фотопечать</a>
+                                </li>
+                                <li style="margin-bottom: 28px;">
+                                    <a class="text-decoration-none  header__link" href="">Готовые решения</a>
+                                </li>
+                                <li style="margin-bottom: 28px;">
+                                    <a class="text-decoration-none header__link" href="">Контакты</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex align-items-center justify-content-center mb-4">
+                                <img class="header__tel-img" src="./images/tel.svg" alt="">
+                                <div class="header__tel-number" style="margin-left: 8.88px;">+7 (3466) 68-15-98</div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-5">
+                                <a class="Request-calli" type="submit"
+                                    href="https://zv9.ru/tel/7-3466-68-15-98/">Заказать
+                                    звонок</a>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center flex-column mb-2">
+                                <img class="header__locatsia-icon" src="./images/locat-gold.svg" alt="">
+                                <p class="header__text m-0 text-center">г. Нижневартовск, ул. Индустриальная, д.7 стр. 1
+                                    ТЦ “ВДНХ”, 2 этаж,бутик
+                                    № 20а</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!--__________________________________-->
+
+    <!--hero __________________________________________-->
+    <div class="hero">
+        <div class="hero__container">
+            <div class="hero__inner-container">
+                <div class="hero__left-sayt">
+                    <div class="hero__hidden">
+                        Кухни в Нижневартовске от производителя -
+                        <spam class="hero__spam"> недорого и надёжно!</spam>
+                    </div>
+                    <p class="hero__text">
+                        Изготовим и доставим кухонный гарнитур в Излучинск, Мегион, Стрежевой, Лангепас, Радужный и
+                        другие города ХМАО
+                    </p>
+                    <ul class="hero__list list-unstyled">
+                        <li class="hero__item" style="margin-right: 0px;">
+                            <img class="hero__inner-img" src="./images/Group-40.svg" alt="">
+                            <p class="hero__inner-text">Рассрочка без
+                                переплаты!</p>
+                        </li>
+                        <li class="hero__item">
+                            <img class="hero__inner-img" src="./images/Group-41.svg" alt="">
+                            <p class="hero__inner-text"> Бесплатныей замер и дизайн проект</p>
+                        </li>
+                    </ul>
+                    <ul class="hero__listt list-unstyled">
+                        <li class="hero__item" style="margin-right: 0px;">
+                            <img class="hero__inner-img" src="./images/Group-42.svg" alt="">
+                            <p class="hero__inner-text">Более 500 цветов фасадов</p>
+                        </li>
+                        <li class="hero__item">
+                            <img class="hero__inner-img" src="./images/Group-43.svg" alt="">
+                            <p class="hero__inner-text" style="max-width: 313px;">Соблюдение сроков изготовления
+                                Если не выполним в срок – мы заплатим Вам неустойку</p>
+                        </li>
+                    </ul>
+                    <div class="hero__d-flex">
+                        <a type="submit" class="hero__btn" href="">Рассчитать стоимость</a>
+                        <div>
+                            <div class="hero__podar">
+                                <img src="./images/odarka.svg" alt="">
+                            </div>
+                            <p class="hero__inner-text2">Пройдите тест из 5 вопросов
+                                и получите дизайн проект, и
+                                расчет стоимость кухни
+                                + гарантированный подарок при заказе кухни!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__right-sayt">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--_________________________________________________-->
+
+    <!--section_________________________________________-->
+    <div class="section">
+        <div class="section__bg">
+            <div class="container">
+                <div class="section__hiden">
+                    <span class="section__span">ОНЛАЙН</span> КОНСТРУКТОР КУХНИ
+                </div>
+                <div class="section__onli">
+                    <div class="section__text">Перед вами самый современный онлайн конструктор кухни. С его помощью вы
+                        сможете создать онлайн 3D
+                        проект своей кухни с высокой степенью визуализации.
+                    </div>
+                    <div class="section__kon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--__________________________________________________________-->
+
+    <!--CARD______________________________________________________-->
+    <div class="cardd">
+        <div class="cardd__bg">
+            <div class="container">
+                <div class="cardd__hiden">
+                    популярные модели
+                </div>
+                <div class="card__bb">
+                    <div class="card__obshi">
+                        <div class="card" style="width: 22.5rem;height: 26.25rem;">
+                            <img src="./images/Лофт-455x320.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Кухонный гарнитур “ЛОФТ”.
+                                    Длина 2 метра.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="card__h6">19 899 ₽</h6>
+                                        <h4 class="card__h4">14 900 ₽</h4>
+                                    </div>
+                                    <a href="" class="btn card__btn">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 22.5rem;height: 26.25rem;">
+                            <img src="./images/2м-орхидея.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Кухонный гарнитур “ЛОФТ”.
+                                    Длина 2 метра.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="card__h6">19 899 ₽</h6>
+                                        <h4 class="card__h4">14 900 ₽</h4>
+                                    </div>
+                                    <a href="" class="btn card__btn">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 22.5rem;height: 26.25rem;">
+                            <img src="./images/x157019kf4A99op-455x320.jpg.pagespeed.ic.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Кухонный гарнитур “ЛОФТ”.
+                                    Длина 2 метра.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="card__h6">19 899 ₽</h6>
+                                        <h4 class="card__h4">14 900 ₽</h4>
+                                    </div>
+                                    <a href="" class="btn card__btn">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 22.5rem;height: 26.25rem;">
+                            <img src="./images/дуб-шок-фуксия-455x320.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Кухонный гарнитур “ЛОФТ”.
+                                    Длина 2 метра.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="card__h6">19 899 ₽</h6>
+                                        <h4 class="card__h4">14 900 ₽</h4>
+                                    </div>
+                                    <a href="" class="btn card__btn">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 22.5rem;height: 26.25rem;">
+                            <img src="./images/ximage-13-03-20-12-28-25-455x320.jpg.pagespeed.ic.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Кухонный гарнитур “ЛОФТ”.
+                                    Длина 2 метра.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="card__h6">19 899 ₽</h6>
+                                        <h4 class="card__h4">14 900 ₽</h4>
+                                    </div>
+                                    <a href="" class="btn card__btn">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 22.5rem;height: 26.25rem;">
+                            <img src="./images/Малина-Красный-20-м-14900-руб.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Кухонный гарнитур “ЛОФТ”.
+                                    Длина 2 метра.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h6 class="card__h6">19 899 ₽</h6>
+                                        <h4 class="card__h4">14 900 ₽</h4>
+                                    </div>
+                                    <a href="" class="btn card__btn">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-center align-items-center">
+                    <a class="btn-link" href="" type="submit">Смотреть все товары</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--_________________________________________________________-->
+
+    <!--BOX______________________________________________________-->
+    <div class="box">
+        <div class="box__bg">
+            <div class="container">
+                <div class="box__hiden">
+                    <span>Выбор</span>кухни по стилям
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ___________________BEM bilan ishlash_____________________________-->
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
